@@ -1,10 +1,10 @@
-package Lab2.src.Ex2;
+package Lab1.src.Lab2.Ex2;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class Main {
-    private static final int noOfThreads = 2;
+    private static final int noOfThreads = 8;
     private static final int processorLoad = Integer.MAX_VALUE;
 
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package Lab2.src.Ex2;
+package Lab1.src.Lab2.Ex2;
 
 import java.util.ArrayList;
 import java.util.Observable;
