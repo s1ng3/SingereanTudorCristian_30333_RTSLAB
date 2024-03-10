@@ -1,4 +1,5 @@
-package Lab1.src.Lab1;// Java program to add two complex numbers
+package Lab1.src.Lab1;
+
 import java.util.Scanner;
 class Exercise1 {
 
@@ -32,9 +33,9 @@ class Exercise1 {
         res.real = (n1.real * n2.real) - (n1.image * n2.image);
         res.image = (n1.real * n2.image) + (n1.image * n2.real);
         return res;
-    }
+    }public static void main(String arg[]) {
 
-    public static void main(String arg[]) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the real part of the first complex number: ");
