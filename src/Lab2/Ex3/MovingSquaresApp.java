@@ -1,4 +1,4 @@
-package Lab2.src.Ex3;
+package Lab1.src.Lab2.Ex3;
 
 import javax.swing.*;
 import java.awt.*;

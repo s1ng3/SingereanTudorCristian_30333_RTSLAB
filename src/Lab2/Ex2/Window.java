@@ -3,7 +3,6 @@ package Lab1.src.Lab2.Ex2;
 import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
-import javax.sound.sampled.Line;
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
 
