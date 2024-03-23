@@ -16,7 +16,7 @@ Get ready for hands-on activities, interactive demos, and lively discussions. Fr
 
 ## Topics Covered 📚
 
-# Lab1 - Introduction – Tool and development environment
+- Lab1 - Introduction – Tool and development environment
 # Lab2 - Threads in Java SE – General concepts 
 # Lab3 - Threads in Java SE – Classic synchronization mechanisms 
 # Lab4 - Applications with threads in Java SE – Petri nets and Time Petri nets implementations and tests using classic synchronization mechanisms
