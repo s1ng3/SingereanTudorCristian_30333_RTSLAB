@@ -1,37 +1,25 @@
 package Lab1.src.Lab3.Example1;
 
-public class WThread extends Thread{
+public class WThread extends Thread {
 
     FileService service;
 
     public WThread(FileService service) {
-
         this.service = service;
-
     }
 
-    public void run(){
-
+    public void run() {
         while(!Main.isStopThreads()){
-
-            String msg=
-
-                    String.valueOf(Math.round(Math.random()*100));
-
-            service.write(msg);
-
-            try {
-
-                Thread.sleep(2000);
-
-            } catch (InterruptedException e) {
-
-                e.printStackTrace();
-
+            synchronized(service) {
+                String msg = String.valueOf(Math.round(Math.random()*100));
+                service.write(msg);
             }
 
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
-
     }
-
 }
