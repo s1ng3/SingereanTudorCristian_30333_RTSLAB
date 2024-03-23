@@ -33,14 +33,6 @@ Get ready for hands-on activities, interactive demos, and lively discussions. Fr
 
 No prior experience required! Just bring your enthusiasm and curiosity. Basic knowledge of computers and programming will be helpful.
 
-## Resources 📚
-
-Explore further with these resources:
-
-- Textbooks: "Real-Time Systems" by Jane W. S. Liu
-- Online Platforms: Coursera, Udemy
-- Research Papers: IEEE Xplore, ACM Digital Library
-
 ## Get Ready to Dive In! 🌊
 
 Get set for an exciting journey into the world of real-time computing! Together, we'll learn, explore, and have a blast. See you there! 😊
