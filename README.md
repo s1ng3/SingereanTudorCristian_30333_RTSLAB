@@ -19,7 +19,7 @@ Get ready for hands-on activities, interactive demos, and lively discussions. Fr
 - Lab1 - Introduction – Tool and development environment
 - Lab2 - Threads in Java SE – General concepts 
 - Lab3 - Threads in Java SE – Classic synchronization mechanisms 
-- Lab4 - Applications with threads in Java SE – Petri nets and Time Petri nets implementations and tests using classic synchronization mechanisms
+- Lab4 - Applications with threads in Java SE – Petri nets and Time Petri nets implementations and tests using classic sync mechanisms
 - Lab5 - Threads in Java SE – Package java.util.concurrent - Part 1
 - Lab6 - Threads in Java SE – Package java.util.concurrent - Part 2 
 - Lab7 - Applications with threads in Java SE - Petri nets and Time Petri nets implementations and tests using synchronization mechanisms from the package java.util.concurrent 
