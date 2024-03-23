@@ -16,29 +16,18 @@ Get ready for hands-on activities, interactive demos, and lively discussions. Fr
 
 ## Topics Covered 📚
 
-## Lab1 - Introduction – Tool and development environment
-
-## Lab2 - Threads in Java SE – General concepts 
-
-## Lab3 - Threads in Java SE – Classic synchronization mechanisms 
-
-## Lab4 - Applications with threads in Java SE – Petri nets and Time Petri nets implementations and tests using classic synchronization mechanisms
-
-## Lab5 - Threads in Java SE – Package java.util.concurrent - Part 1
-
-## Lab6 - Threads in Java SE – Package java.util.concurrent - Part 2 
-
-## Lab7 - Applications with threads in Java SE - Petri nets and Time Petri nets implementations and tests using synchronization mechanisms from the package java.util.concurrent 
-
-## Lab8 - Real-Time Java – Introductory notions
-
-## Lab9 - Clocks and timings in Real-Time Java
-
-## Lab10 - Real time threads
-
-## Lab11 - Applications with RT Java threads
-
-## Lab12 - Memory management in Real-Time Java 
+# Lab1 - Introduction – Tool and development environment
+# Lab2 - Threads in Java SE – General concepts 
+# Lab3 - Threads in Java SE – Classic synchronization mechanisms 
+# Lab4 - Applications with threads in Java SE – Petri nets and Time Petri nets implementations and tests using classic synchronization mechanisms
+# Lab5 - Threads in Java SE – Package java.util.concurrent - Part 1
+# Lab6 - Threads in Java SE – Package java.util.concurrent - Part 2 
+# Lab7 - Applications with threads in Java SE - Petri nets and Time Petri nets implementations and tests using synchronization mechanisms from the package java.util.concurrent 
+# Lab8 - Real-Time Java – Introductory notions
+# Lab9 - Clocks and timings in Real-Time Java
+# Lab10 - Real time threads
+# Lab11 - Applications with RT Java threads
+# Lab12 - Memory management in Real-Time Java 
 
 ## Prerequisites 📋
 
