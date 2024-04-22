@@ -1,0 +1,21 @@
+@startuml
+
+class ExecutionThread
+ExecutionThread : ~ monitor1 : ReentrantLock
+ExecutionThread : ~ monitor2 : ReentrantLock
+ExecutionThread : ~ monitorSh : ReentrantLock
+ExecutionThread : ~ times : int[]
+ExecutionThread : + run() : void
+
+class Thread
+class ReentrantLock
+class InterruptedException
+class Main
+Main : + main() : static void
+
+ExecutionThread -|> Thread
+ExecutionThread -o ReentrantLock
+ExecutionThread -> InterruptedException
+Main -* ExecutionThread
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+
+[*] -> Running
+
+state Running{
+
+    [*] -> StartState1
+    StartState1 -> State2 : acquire 1 permit
+    State2 : Do work 3-6
+    State2 -> State3 : release 1 permit
+    State3 -> State4 : Sleep 5
+    State4 -> StartState1
+
+    --
+    [*] -> StartState2
+    StartState2 -> State6 : acquire 1 permit
+    State6 : Do work 4-7
+    State6 -> State7 : release 1 permit
+    State7 -> State8 : Sleep 3
+    State8 -> StartState2
+
+    --
+    [*] -> StartState3
+    StartState3 -> State10 : acquire 1 permit
+    State10 : Do work 4-7
+    State10 -> State11 : release 1 permit
+    State11 -> State12 : Sleep 3
+    State12 -> StartState3
+
+}
+Running -> [*]
+@enduml

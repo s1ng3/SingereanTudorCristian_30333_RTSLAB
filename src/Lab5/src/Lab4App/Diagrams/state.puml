@@ -1,0 +1,27 @@
+@startuml
+
+[*] -> Running
+
+state Running{
+
+    [*] -> State1
+    State1 : Do work 2-4
+    State1 -> State2 : Acquire monitor1 and shared
+    State2 : Do work 4-6
+    State2 -> State3 : Acquire monitor2, release shared
+    State3 -> State4 : Release monitor1 and monitor2, sleep 4
+    State4 -> [*]
+
+    --
+
+    [*] -> State5
+    State5 : Do work 3-5
+    State5 -> State6 : Acquire monitor2 and shared
+    State6 : Do work 5-7
+    State6 -> State7 : Acquire monitor1, release shared
+    State7 -> State8 : Release monitor2 and monitor1, sleep 5
+    State8 -> [*]
+
+}
+
+@enduml

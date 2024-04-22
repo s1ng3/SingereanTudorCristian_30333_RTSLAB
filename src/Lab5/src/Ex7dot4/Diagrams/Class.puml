@@ -1,0 +1,19 @@
+@startuml
+
+class ExecutionThread
+ExecutionThread : ~ monitor1 : Semaphore
+ExecutionThread : ~ times : int[]
+ExecutionThread : + run() : void
+
+class Thread
+class Semaphore
+class InterruptedException
+class Main
+Main : + main() : static void
+
+ExecutionThread -|> Thread
+ExecutionThread -o Semaphore
+ExecutionThread -> InterruptedException
+Main -* ExecutionThread
+
+@enduml
