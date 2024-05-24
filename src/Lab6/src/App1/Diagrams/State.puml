@@ -1,0 +1,27 @@
+@startuml
+
+[*] -> Running
+state Running{
+
+    [*] -> StartState
+    StartState -> State1
+    State1 : Do work 2-4
+    StartState -> State2
+    State2: Do work 3-5
+    State1 -> State3 : Acquire lock1
+    State2 -> State4 : Acquire lock2
+    State3 -> State5 : Do work 4-6
+    State4 -> State6 : Do work 5-7
+    State5 -> State7 : Acquire lock2
+    State6 -> State8 : Acquire lock1
+    State7 -> State9 : Sleep 4, release lock1, lock2
+    State8 -> State10 : Sleep 5, release lock1, lock2
+    State9 -> State11
+    State10 -> State11
+    State11 -> StartState
+
+}
+
+Running -> [*]
+
+@enduml
