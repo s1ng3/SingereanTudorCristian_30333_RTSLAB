@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab7.iml" filepath="$PROJECT_DIR$/.idea/Lab7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/galvanizing_line/galvanizing_line.iml" filepath="$PROJECT_DIR$/galvanizing_line/galvanizing_line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oetpn_framework/oetpn_framework.iml" filepath="$PROJECT_DIR$/oetpn_framework/oetpn_framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parentChild/parentChild.iml" filepath="$PROJECT_DIR$/parentChild/parentChild.iml" />
+    </modules>
+  </component>
+</project>
